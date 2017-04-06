@@ -1,0 +1,2 @@
+MainPackage=C:\Users\User\Documents\Visual Studio 2015\Projects\Weather_App2\Weather_App\bin\x64\Release\Upload\Weather_App_1.1.21.0_x64.appx
+SymbolPackage=C:\Users\User\Documents\Visual Studio 2015\Projects\Weather_App2\Weather_App\AppPackages\Weather_App_1.1.21.0\Weather_App_1.1.21.0_x64.appxsym

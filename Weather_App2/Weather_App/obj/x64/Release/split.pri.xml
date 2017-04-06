@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="9944DerrickC.WeatherApp" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>200</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://9944DerrickC.WeatherApp/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://9944DerrickC.WeatherApp/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Weather_App.xr.xml" uri="ms-resource://9944DerrickC.WeatherApp/Files/Weather_App.xr.xml">
+				<Candidate type="Path">
+					<Value>Weather_App.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square88x88Logo.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Square88x88Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square88x88Logo.scale-200.png</Value>
+					</Candidate>
+					<Candidate type="Path">
+						<Value>Assets\Square88x88Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Logos">
+					<NamedResource name="150x150px.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/150x150px.png">
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>Assets\Logos\150x150px.scale-200.png</Value>
+						</Candidate>
+						<Candidate type="Path">
+							<Value>Assets\Logos\150x150px.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="152x142px.jpg" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/152x142px.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Logos\152x142px.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="310x150px.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/310x150px.png">
+						<Candidate type="Path">
+							<Value>Assets\Logos\310x150px.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="310x150pxx.jpg" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/310x150pxx.jpg">
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>Assets\Logos\310x150pxx.scale-200.jpg</Value>
+						</Candidate>
+						<Candidate type="Path">
+							<Value>Assets\Logos\310x150pxx.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="310x150xpx.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/310x150xpx.png">
+						<Candidate type="Path">
+							<Value>Assets\Logos\310x150xpx.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="620x300px.jpg" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/620x300px.jpg">
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>Assets\Logos\620x300px.scale-200.jpg</Value>
+						</Candidate>
+						<Candidate type="Path">
+							<Value>Assets\Logos\620x300px.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="71x71px.jpg" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/71x71px.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Logos\71x71px.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="88x88px.jpg" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/88x88px.jpg">
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>Assets\Logos\88x88px.scale-200.jpg</Value>
+						</Candidate>
+						<Candidate type="Path">
+							<Value>Assets\Logos\88x88px.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="e2c19fe05a9335c250dbf6d768a6252e.jpg" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/e2c19fe05a9335c250dbf6d768a6252e.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Logos\e2c19fe05a9335c250dbf6d768a6252e.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="images.jpg" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Logos/images.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Logos\images.jpg</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Weather">
+					<NamedResource name="01d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/01d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\01d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="01n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/01n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\01n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="02d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/02d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\02d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="02n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/02n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\02n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="03d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/03d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\03d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="03n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/03n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\03n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="04d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/04d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\04d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="04n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/04n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\04n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="09d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/09d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\09d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="09n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/09n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\09n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="10d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/10d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\10d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="10n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/10n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\10n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="11d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/11d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\11d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="11n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/11n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\11n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="13d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/13d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\13d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="13n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/13n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\13n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="310x150pxx.jpg" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/310x150pxx.jpg"/>
+					<NamedResource name="50d.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/50d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\50d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="50n.png" uri="ms-resource://9944DerrickC.WeatherApp/Files/Assets/Weather/50n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\50n.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://9944DerrickC.WeatherApp/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://9944DerrickC.WeatherApp/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
