@@ -17,7 +17,7 @@ this app for a second time?”
 
 ## Submission Requirement:
 
-Your App must be submitted for certification on the Windows Store in order to be considered for marking
+App must be submitted for certification on the Windows Store in order to be considered for marking
 
 ## About App
 
