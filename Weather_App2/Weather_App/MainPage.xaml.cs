@@ -30,19 +30,21 @@ namespace Weather_App
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
+            //  ResultTextBlock.Text = "Unable to get Weather";
             try
             {
-                var position = await Location.GetPosition();
+                var position = await Location.GetPosition();//get local position from location.cs
 
                 RootObject myWeather =
                     await WeatherMapProxy.GetWeather(
                         position.Coordinate.Latitude,
-                        position.Coordinate.Longitude);
+                        position.Coordinate.Longitude);//get the cordenits from the openweatherproxy
 
                 String icon = String.Format("ms-appx:///Assets/Weather/{0}.png", myWeather.weather[0].icon);
                 // String icon = String.Format("http://openweathermap.org/img/w/{0}.png", myWeather.weather[0].icon);
 
                 ResultImage.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
+                //pulling the icons from the weather folder i added with my own icons
 
                 // ResultTextBlock.Text = myWeather.name + " - " + myWeather.main.temp + " - " + myWeather.weather[0].description;
 
@@ -51,13 +53,14 @@ namespace Weather_App
 
             /*   TempTextBlock.Text = ((int)myWeather.main.temp).ToString();
                 DescriptionTextBlock.Text = myWeather.weather[0].description;
-                LocationTextBlock.Text = myWeather.name;*/
+                LocationTextBlock.Text = myWeather.name;
+            */
             }
 
             catch
             {
                 ResultTextBlock.Text = "Unable to get Weather";
-
+                //if unable to get weather print this
             }
 
 
@@ -79,5 +82,28 @@ namespace Weather_App
             DescriptionTextBlock.Text = myWeather.weather[0].description;
             LocationTextBlock.Text = myWeather.name;*/
         }
+
+        // trying to get the tiles to work
+
+        /*  private void ChangeTileContentButton_click(object sender, RoutedEventArgs e)
+         {
+
+             var tileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileSquare150x150Text01);
+
+             var tileAttributes = tileXml.GetElementsByTagName("text");
+             tileAttributes[0].AppendChild(tileXml.CreateTextNode(MyTextBlock.Text));
+             var tileNotification = new TileNotification(tileXml);
+             TileUpdateManager.CreateTileUpdaterForApplication().Update(tileNotification);
+         }
+         // trying to get tiles to update every half hour
+         private void ScheduleNotificationButton_Click(object sender, RoutedEventArgs e)
+         {
+
+             var TileContent = new Uri("");
+             var requestedInterval = PeriodicUpdateRecrrence.HalfHour;
+
+             var update = TileUpdateManager.CreateTileUpdaterForApplication();
+             updater.StartPeriodicUpdate(TileContent, requestedInterval);
+         }*/
     }
 }

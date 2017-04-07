@@ -11,15 +11,15 @@ namespace Weather_App
     {
         public async static Task<Geoposition> GetPosition()
         {
-            var accessStatus = await Geolocator.RequestAccessAsync();
+            var accessStatus = await Geolocator.RequestAccessAsync();// access the Geolocator
 
-            if (accessStatus != GeolocationAccessStatus.Allowed) throw new Exception();
+            if (accessStatus != GeolocationAccessStatus.Allowed) throw new Exception();//if access is not allowed to the Geolocator it will throw exception
 
-            var geolocator = new Geolocator { DesiredAccuracyInMeters = 0 };
+            var geolocator = new Geolocator { DesiredAccuracyInMeters = 0 };// get the accuracy of location
 
-            var position = await geolocator.GetGeopositionAsync();
+            var position = await geolocator.GetGeopositionAsync();// get the current position
 
-            return position;
+            return position;// return position
         }
     }
 }
